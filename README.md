@@ -9,6 +9,9 @@ This repository contains a Python script tool for performing multi-criteria eval
 
 The multi-criteria evaluation script tool is designed to facilitate spatial analysis by combining multiple raster datasets, each representing a different criterion. The tool applies user-defined weights to each raster and computes a weighted sum to produce an output raster that reflects the combined importance of the input criteria.
 
+## Example
+Suppose you have three raster layers representing different criteria for urban planning (e.g., proximity to roads, slope, and land use). You can use this tool to combine these criteria by assigning weights based on their importance (e.g., 0.4 for proximity to roads, 0.3 for slope, and 0.3 for land use). The tool will compute the weighted sum of these rasters and produce a final output raster that can be used for decision making.
+
 ## Features
 
 - Accepts multiple raster layers as input.
