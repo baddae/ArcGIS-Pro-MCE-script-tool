@@ -22,5 +22,26 @@ Suppose you have three raster layers representing different criteria for urban p
 
 ## Usage
 
+Define the Script Tool Parameters:
+
+- Parameter 1: Raster Layers
+Label: Raster Layers
+Name: raster_layers
+Data Type: Raster Layer
+Type: Multivalue
+Direction: Input
+- Parameter 2: Weights
+Label: Weights
+Name: weights
+Data Type: Double
+Type: Multivalue
+Direction: Input
+- Parameter 3: Output Raster
+Label: Output Raster
+Name: output_raster
+Data Type: Raster Dataset
+Type: Derived Output
+Direction: Output
+
 
 
