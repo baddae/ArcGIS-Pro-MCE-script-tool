@@ -12,6 +12,8 @@ The multi-criteria evaluation script tool is designed to facilitate spatial anal
 ## Example
 Suppose you have three raster layers representing different criteria for urban planning (e.g., proximity to roads, slope, and land use). You can use this tool to combine these criteria by assigning weights based on their importance (e.g., 0.4 for proximity to roads, 0.3 for slope, and 0.3 for land use). The tool will compute the weighted sum of these rasters and produce a final output raster that can be used for decision making.
 
+Imagine you are evaluating potential sites for a wind farm. You have several raster layers representing different criteria such as wind speed, proximity to transmission lines, land use, and environmental constraints. Using this tool, you can assign weights to these criteria based on their significance (e.g., 0.5 for wind speed, 0.2 for proximity to transmission lines, 0.2 for land use, and 0.1 for environmental constraints). The tool will then calculate the weighted sum of these layers, resulting in a final output raster that highlights the most suitable locations for a wind farm.
+
 ## Features
 
 - Accepts multiple raster layers as input.
