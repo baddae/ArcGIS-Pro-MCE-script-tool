@@ -3,7 +3,7 @@ Multi-Criteria Evaluation Script Tool for ArcGIS Pro
 
 # Multi-Criteria Evaluation Script Tool
 
-This repository contains a Python script tool for performing multi-criteria evaluation (MCE) using ArcGIS Pro. The tool allows users to input multiple raster layers and assign a weight of importance to each layer. The weights are used to scale the raster values, and the scaled rasters are then summed to produce a final output raster.
+This repository contains a Python script tool for performing multi-criteria evaluation (MCE) using ArcGIS Pro. The tool allows users to input multiple raster layers and assign a weight of importance to each layer. The weights are used to scale the raster values, and the scaled rasters are then summed to produce a final output raster. This tool can be utilized for conducting site suitability assessments crucial for decisions on optimal locations for facilities such as waste plants, wind farms, and solar panels.
 
 ## Description
 
